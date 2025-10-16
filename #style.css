@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: aliceblue;
+
+}
+.titulo{color: aquamarine;
+}
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 2em;
+}
+.tamanhodiv{
+    max-width: 560px;
+}
+img{
+    width: 100vw;
+}
