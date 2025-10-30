@@ -1,0 +1,92 @@
+:root{
+   --cor-texto-link :          #5A13B4;
+   --cor-titulo :              #3B1270;
+   --cor-texto-destaque :      #8E35FF ;
+
+
+   --cor-buscar:               #5913b470 ;
+
+   --cor-fundo-escolha-curso : #3B1270 ;
+   --cor-fundo-increva-se :    #8E35FF ;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.marginSite{
+    margin: 2,5
+}
+
+a{
+    color: var(--cor-texto-link);
+    text-decoration: none;
+}
+
+.marginSite{
+    margin: 0 10vw;
+}
+.flex{
+    display:     flex;
+    align-items: center;
+}
+
+/*Header*/
+.containerMenuPrincipal{
+    margin-left: 5vw;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.containerBlogGrad, .containerBuscaAMb{
+    gap: 2vw;
+}
+.containerBuscar{
+    border : 1px, solid, var(--cor-buscar--);
+    padding : 5px  15px;
+    min-width : 220px ;
+    justify-content: space-between;
+}
+
+.containerBuscar input{
+    border: none;
+    color: var(--cor-titulo);
+}
+
+.containerBuscar input:focus{
+    outline: none;
+}
+
+.containerBuscar input::placeholder{
+    color: var(--cor-buscar);
+
+}
+
+.containerBuscar button{
+    background-color:transparent;
+    border:none;
+    width :     15px;
+    height:     15px;
+}
+
+.containerBuscarAmb a{
+    gap:        0.5vw;
+}
+/*fim header*/
+
+/*Apresentação (titulo)*/
+h1{
+    color:var(--cor-titulo);
+    font-weigth: 400;
+    font-size 1.4rem;
+}
+.containerApresentação h2{
+    color: var(--cor-titulo);
+    font-weight : 400;
+    font-size : 9rem ;
+    max-width: 950px ;
+
+}
